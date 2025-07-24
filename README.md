@@ -1,12 +1,60 @@
-# React + Vite
+<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/02b046d3-4513-443d-821d-43eada881bee" /># 🎭 Quote & Image Explorer
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+An elegant React app that lets you discover **random inspirational quotes** and browse **beautiful images** from Unsplash with seamless animations and infinite scrolling.
 
-Currently, two official plugins are available:
+## ✨ Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- 🎯 **Random Quote Generator** using `quotable.io`
+- 🔍 **Image Search** from Unsplash API
+- ♾️ **Infinite Scroll** to load more images
+- 🎨 **Dark & Light Mode Toggle**
+- 📥 **Download Button** for each image (direct download)
+- 💫 **Smooth Animations** using Framer Motion
+- ❌ Graceful fallback for no results & errors
 
-## Expanding the ESLint configuration
+## 🔧 Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **React + Vite**
+- **Tailwind CSS** for styling
+- **Framer Motion** for animations
+- **Unsplash API** for image search
+- **Quotable API** for quotes
+
+## 🚀 Getting Started
+
+### 1. Clone the Repo
+```bash
+git clone https://github.com/your-username/quote-image-explorer.git
+cd quote-image-explorer
+
+2. Install Dependencies
+npm install
+
+3. Setup Environment Variables
+Create a .env file in the root with your Unsplash API key:
+VITE_UNSPLASH_ACCESS_KEY=your_unsplash_access_key
+Get one for free from: https://unsplash.com/developers
+
+npm run dev
+```
+ -🧠 Learnings & Concepts
+useEffect for API fetching
+
+useState for local state
+
+fetch() with error handling
+
+Tailwind CSS Grid + Flexbox
+
+Conditional rendering (loading, not found)
+
+Framer Motion for animations
+
+Unsplash API integration
+
+🛠 Future Enhancements
+📤 Share quotes via social media
+
+❤️ Like/favorite images
+
+📜 View full quote history

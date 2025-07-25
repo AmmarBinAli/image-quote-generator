@@ -52,6 +52,9 @@ Framer Motion for animations
 
 Unsplash API integration
 
+🔗 Live Preview
+https://image-quote-generator.vercel.app/
+
 🛠 Future Enhancements
 📤 Share quotes via social media
 
